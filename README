@@ -1,0 +1,24 @@
+CS 537 project 3
+
+This is a reimplementation of the Linux command "make".
+
+Detailed description of these 4 threads can be found on the webpage:
+http://pages.cs.wisc.edu/~bart/537/programs/program3.html
+
+This program is written in C and can only be executed on Linux machines.
+
+Compiling
+
+This program uses GCC compiler and the pthread library. Since there is a makefile, just use "make" to compile the program.
+
+Running
+
+Here are 2 examples of running:
+./537make
+./537make main.o
+
+Development Procedure
+
+Ying Zhang coded the part of reading makefile and constructing build specifications, 
+Kenny Jin finished the part of program execution and graph operations. 
+
